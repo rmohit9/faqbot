@@ -42,7 +42,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['testserver', 'localhost', '127.0.0.1']
 ALLOWED_HOSTS = [
-    'aibot-sxc2.onrender.com',
+    'faqbot-bg3f.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
@@ -234,5 +234,5 @@ LOGGING = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://aibot-sxc2.onrender.com',
+    'https://faqbot-bg3f.onrender.com',
 ]
