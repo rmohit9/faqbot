@@ -16324,3 +16324,205 @@
     }
   }
 }
+2026-01-02 17:33:08,196 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:33:08.195913",
+  "component": "rag_system",
+  "step": "initial_query",
+  "query": "How do I reset my password?",
+  "processed_query": null,
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": null
+}
+2026-01-02 17:33:08,212 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:33:08.212008",
+  "component": "rag_system",
+  "step": "query_processed",
+  "query": "How do I reset my password?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I reset my password?",
+      "corrected_query": "How do i set my password",
+      "intent": "instruction",
+      "expanded_queries": "['How do i set my password', 'how to How do i set my password', 'instructions for How do i set my password', 'steps to How do i set my password', 'how set password', 'How do i set my password?', 'how to how', 'how to set', 'how to password', 'steps to how', 'steps to set', 'steps to password', 'instructions for how', 'instructions for set', 'instructions for password', 'guide to how', 'guide to set', 'guide to password', 'guide to How do i set my password', 'tutorial on how', 'tutorial on set', 'tutorial on password', 'tutorial on How do i set my password', 'way to how', 'way to set', 'way to password', 'way to How do i set my password']",
+      "language": "en",
+      "confidence": "0.6933333333333334",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{how}', '{how,do,i}', '{do}', '{set}', '{do,i,set}', '{i,set,my}', '{my,password}', '{do,i}', '{set,my,password}', '{i,set}', '{i}', '{password}', '{how,do}', '{set,my}', '{my}']"
+    }
+  },
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": null
+}
+2026-01-02 17:33:08,720 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:33:08.720273",
+  "component": "rag_system",
+  "step": "faqs_retrieved",
+  "query": "How do I reset my password?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I reset my password?",
+      "corrected_query": "How do i set my password",
+      "intent": "instruction",
+      "expanded_queries": "['How do i set my password', 'how to How do i set my password', 'instructions for How do i set my password', 'steps to How do i set my password', 'how set password', 'How do i set my password?', 'how to how', 'how to set', 'how to password', 'steps to how', 'steps to set', 'steps to password', 'instructions for how', 'instructions for set', 'instructions for password', 'guide to how', 'guide to set', 'guide to password', 'guide to How do i set my password', 'tutorial on how', 'tutorial on set', 'tutorial on password', 'tutorial on How do i set my password', 'way to how', 'way to set', 'way to password', 'way to How do i set my password']",
+      "language": "en",
+      "confidence": "0.6933333333333334",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{how}', '{how,do,i}', '{do}', '{set}', '{do,i,set}', '{i,set,my}', '{my,password}', '{do,i}', '{set,my,password}', '{i,set}', '{i}', '{password}', '{how,do}', '{set,my}', '{my}']"
+    }
+  },
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": null
+}
+2026-01-02 17:33:08,720 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:33:08.720657",
+  "component": "rag_system",
+  "step": "response_generated",
+  "query": "How do I reset my password?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I reset my password?",
+      "corrected_query": "How do i set my password",
+      "intent": "instruction",
+      "expanded_queries": "['How do i set my password', 'how to How do i set my password', 'instructions for How do i set my password', 'steps to How do i set my password', 'how set password', 'How do i set my password?', 'how to how', 'how to set', 'how to password', 'steps to how', 'steps to set', 'steps to password', 'instructions for how', 'instructions for set', 'instructions for password', 'guide to how', 'guide to set', 'guide to password', 'guide to How do i set my password', 'tutorial on how', 'tutorial on set', 'tutorial on password', 'tutorial on How do i set my password', 'way to how', 'way to set', 'way to password', 'way to How do i set my password']",
+      "language": "en",
+      "confidence": "0.6933333333333334",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{how}', '{how,do,i}', '{do}', '{set}', '{do,i,set}', '{i,set,my}', '{my,password}', '{do,i}', '{set,my,password}', '{i,set}', '{i}', '{password}', '{how,do}', '{set,my}', '{my}']"
+    }
+  },
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": {
+    "type": "Response",
+    "attributes": {
+      "text": "Sorry, I couldn't find an answer to your question. Please try rephrasing it.",
+      "confidence": "0.1",
+      "source_faqs": "[]",
+      "context_used": "False",
+      "generation_method": "no_match_ai",
+      "query_id": "None",
+      "processed_query": "ProcessedQuery(original_query='How do I reset my password?', corrected_query='How do i set my password', intent='instruction', expanded_queries=['How do i set my password', 'how to How do i set my password', 'instructions for How do i set my password', 'steps to How do i set my password', 'how set password', 'How do i set my password?', 'how to how', 'how to set', 'how to password', 'steps to how', 'steps to set', 'steps to password', 'instructions for how', 'instructions for set', 'instructions for password', 'guide to how', 'guide to set', 'guide to password', 'guide to How do i set my password', 'tutorial on how', 'tutorial on set', 'tutorial on password', 'tutorial on How do i set my password', 'way to how', 'way to set', 'way to password', 'way to How do i set my password'], language='en', confidence=0.6933333333333334, embedding=None, components={'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}, ngram_keywords=['{how}', '{how,do,i}', '{do}', '{set}', '{do,i,set}', '{i,set,my}', '{my,password}', '{do,i}', '{set,my,password}', '{i,set}', '{i}', '{password}', '{how,do}', '{set,my}', '{my}'])",
+      "metadata": "{'ai_generated': True, 'no_match': True}",
+      "processing_time": "0.0"
+    }
+  }
+}
+2026-01-02 17:38:09,672 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:38:09.671986",
+  "component": "rag_system",
+  "step": "initial_query",
+  "query": "How do I apply for an internship?",
+  "processed_query": null,
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": null
+}
+2026-01-02 17:38:09,689 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:38:09.688937",
+  "component": "rag_system",
+  "step": "query_processed",
+  "query": "How do I apply for an internship?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I apply for an internship?",
+      "corrected_query": "How do i apply for an internship",
+      "intent": "instruction",
+      "expanded_queries": "['How do i apply for an internship', 'how to How do i apply for an internship', 'instructions for How do i apply for an internship', 'steps to How do i apply for an internship', 'how apply internship', 'How do i apply for an internship?', 'how to how', 'how to apply', 'how to internship', 'steps to how', 'steps to apply', 'steps to internship', 'instructions for how', 'instructions for apply', 'instructions for internship', 'guide to how', 'guide to apply', 'guide to internship', 'guide to How do i apply for an internship', 'tutorial on how', 'tutorial on apply', 'tutorial on internship', 'tutorial on How do i apply for an internship', 'way to how', 'way to apply', 'way to internship', 'way to How do i apply for an internship']",
+      "language": "en",
+      "confidence": "0.7074285714285715",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{internship}', '{an}', '{for,an,internship}', '{how,do,i}', '{apply,for}', '{do,i}', '{i,apply}', '{i}', '{do,i,apply}', '{how}', '{do}', '{apply}', '{i,apply,for}', '{for}', '{for,an}', '{how,do}', '{apply,for,an}', '{an,internship}']"
+    }
+  },
+  "retrieved_faqs_count": 0,
+  "retrieved_faqs": [],
+  "response": null
+}
+2026-01-02 17:38:09,992 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:38:09.992833",
+  "component": "rag_system",
+  "step": "faqs_retrieved",
+  "query": "How do I apply for an internship?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I apply for an internship?",
+      "corrected_query": "How do i apply for an internship",
+      "intent": "instruction",
+      "expanded_queries": "['How do i apply for an internship', 'how to How do i apply for an internship', 'instructions for How do i apply for an internship', 'steps to How do i apply for an internship', 'how apply internship', 'How do i apply for an internship?', 'how to how', 'how to apply', 'how to internship', 'steps to how', 'steps to apply', 'steps to internship', 'instructions for how', 'instructions for apply', 'instructions for internship', 'guide to how', 'guide to apply', 'guide to internship', 'guide to How do i apply for an internship', 'tutorial on how', 'tutorial on apply', 'tutorial on internship', 'tutorial on How do i apply for an internship', 'way to how', 'way to apply', 'way to internship', 'way to How do i apply for an internship']",
+      "language": "en",
+      "confidence": "0.7074285714285715",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{internship}', '{an}', '{for,an,internship}', '{how,do,i}', '{apply,for}', '{do,i}', '{i,apply}', '{i}', '{do,i,apply}', '{how}', '{do}', '{apply}', '{i,apply,for}', '{for}', '{for,an}', '{how,do}', '{apply,for,an}', '{an,internship}']"
+    }
+  },
+  "retrieved_faqs_count": 1,
+  "retrieved_faqs": [
+    {
+      "id": "9c14cff8-b4c6-4fdf-b519-414d2d47905f",
+      "question": "How can I apply for an internship at Graphura?",
+      "answer": "You can apply through the application form shared on Graphura\u2019s official website or via job/internship portals (such as LinkedIn) where Graphura posts openings. Keep your CV and portfolio (if applicab",
+      "confidence_score": 0.95,
+      "category": "onboarding",
+      "source_document": "C:\\final correction\\backend\\FAQ.docx"
+    }
+  ],
+  "response": null
+}
+2026-01-02 17:38:11,375 - rag_debug.rag_system - DEBUG - QUERY_PROCESSING: {
+  "timestamp": "2026-01-02T17:38:11.374637",
+  "component": "rag_system",
+  "step": "response_generated",
+  "query": "How do I apply for an internship?",
+  "processed_query": {
+    "type": "ProcessedQuery",
+    "attributes": {
+      "original_query": "How do I apply for an internship?",
+      "corrected_query": "How do i apply for an internship",
+      "intent": "instruction",
+      "expanded_queries": "['How do i apply for an internship', 'how to How do i apply for an internship', 'instructions for How do i apply for an internship', 'steps to How do i apply for an internship', 'how apply internship', 'How do i apply for an internship?', 'how to how', 'how to apply', 'how to internship', 'steps to how', 'steps to apply', 'steps to internship', 'instructions for how', 'instructions for apply', 'instructions for internship', 'guide to how', 'guide to apply', 'guide to internship', 'guide to How do i apply for an internship', 'tutorial on how', 'tutorial on apply', 'tutorial on internship', 'tutorial on How do i apply for an internship', 'way to how', 'way to apply', 'way to internship', 'way to How do i apply for an internship']",
+      "language": "en",
+      "confidence": "0.7074285714285715",
+      "embedding": "None",
+      "components": "{'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}",
+      "ngram_keywords": "['{internship}', '{an}', '{for,an,internship}', '{how,do,i}', '{apply,for}', '{do,i}', '{i,apply}', '{i}', '{do,i,apply}', '{how}', '{do}', '{apply}', '{i,apply,for}', '{for}', '{for,an}', '{how,do}', '{apply,for,an}', '{an,internship}']"
+    }
+  },
+  "retrieved_faqs_count": 1,
+  "retrieved_faqs": [
+    {
+      "id": "9c14cff8-b4c6-4fdf-b519-414d2d47905f",
+      "question": "How can I apply for an internship at Graphura?",
+      "answer": "You can apply through the application form shared on Graphura\u2019s official website or via job/internship portals (such as LinkedIn) where Graphura posts openings. Keep your CV and portfolio (if applicab",
+      "confidence_score": 0.95,
+      "category": "onboarding",
+      "source_document": "C:\\final correction\\backend\\FAQ.docx"
+    }
+  ],
+  "response": {
+    "type": "Response",
+    "attributes": {
+      "text": "To apply for an internship at Graphura, you can use the application form on their official website or apply through job/internship portals like LinkedIn where Graphura posts openings. Make sure to have your CV and portfolio ready.",
+      "confidence": "1.0",
+      "source_faqs": "[FAQEntry(id='9c14cff8-b4c6-4fdf-b519-414d2d47905f', question='How can I apply for an internship at Graphura?', answer='You can apply through the application form shared on Graphura\u2019s official website or via job/internship portals (such as LinkedIn) where Graphura posts openings. Keep your CV and portfolio (if applicable) ready.', keywords=['{i,apply}', '{can,i,apply}', 'how', '{can,i}', 'through', '{an,internship,at}', 'official', '{internship,at}', 'apply', '{an}', '{apply}', '{internship}', 'answer', '{graphura}', '{for,an,internship}', '{can}', '{how,can}', 'internship', '{an,internship}', '{internship,at,graphura}', 'graphura', '{apply,for,an}', '{i,apply,for}', '{at,graphura}', '{for}', '{apply,for}', 'form', '{how,can,i}', '{i}', 'shared', 'application', '{how}', '{at}', '{for,an}'], category='onboarding', confidence_score=0.95, source_document='C:\\\\final correction\\\\backend\\\\FAQ.docx', created_at=datetime.datetime(2025, 12, 26, 0, 6, 17, 997191), updated_at=datetime.datetime(2025, 12, 26, 0, 6, 46, 581459), audience='intern', intent='process', condition='default', embedding=None)]",
+      "context_used": "False",
+      "generation_method": "rag",
+      "query_id": "164698b5-cc7b-40af-912c-26eeb3be8fc2",
+      "processed_query": "ProcessedQuery(original_query='How do I apply for an internship?', corrected_query='How do i apply for an internship', intent='instruction', expanded_queries=['How do i apply for an internship', 'how to How do i apply for an internship', 'instructions for How do i apply for an internship', 'steps to How do i apply for an internship', 'how apply internship', 'How do i apply for an internship?', 'how to how', 'how to apply', 'how to internship', 'steps to how', 'steps to apply', 'steps to internship', 'instructions for how', 'instructions for apply', 'instructions for internship', 'guide to how', 'guide to apply', 'guide to internship', 'guide to How do i apply for an internship', 'tutorial on how', 'tutorial on apply', 'tutorial on internship', 'tutorial on How do i apply for an internship', 'way to how', 'way to apply', 'way to internship', 'way to How do i apply for an internship'], language='en', confidence=0.7074285714285715, embedding=None, components={'audience': 'any', 'category': 'general', 'intent': 'instruction', 'condition': 'default'}, ngram_keywords=['{internship}', '{an}', '{for,an,internship}', '{how,do,i}', '{apply,for}', '{do,i}', '{i,apply}', '{i}', '{do,i,apply}', '{how}', '{do}', '{apply}', '{i,apply,for}', '{for}', '{for,an}', '{how,do}', '{apply,for,an}', '{an,internship}'])",
+      "metadata": "{'ai_generated': True, 'user_tone': 'neutral', 'style_characteristics': 'direct and informative', 'faq_category': 'onboarding'}",
+      "processing_time": "0.0"
+    }
+  }
+}

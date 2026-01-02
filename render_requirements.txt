@@ -1,0 +1,12 @@
+django
+gunicorn
+python-dotenv
+requests
+numpy
+scikit-learn
+python-docx
+google-generativeai
+chromadb
+django-recaptcha
+django-cors-headers
+whitenoise

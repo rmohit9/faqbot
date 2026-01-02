@@ -22,12 +22,12 @@ try:
 except ImportError:
     CHROMA_AVAILABLE = False
 
-from ....interfaces.base import (
+from faq.rag.interfaces.base import (
     VectorStoreInterface, 
     FAQEntry, 
     SimilarityMatch
 )
-from ....utils.ngram_utils import get_ngram_overlap
+from faq.rag.utils.ngram_utils import get_ngram_overlap
 
 logger = logging.getLogger(__name__)
 

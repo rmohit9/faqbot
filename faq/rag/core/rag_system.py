@@ -953,7 +953,7 @@ class RAGSystem(RAGSystemInterface):
                                 component_name=component_name,
                                 status=monitor_status,
                                 response_time=response_time,
-                                error_rate=0.0 if component_status == 'healthy' else 0.5
+                                error_rate=0.0 if component_status in ['healthy', 'available'] else 0.5
                             )
                         except Exception as e:
                             self.logger.warning(f"Performance monitoring failed for {component_name}: {e}")
